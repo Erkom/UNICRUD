@@ -1,5 +1,5 @@
 @echo off
-chcp 1252 >nul
+chcp 65001 >nul
 echo Executando o Sistema de Gerenciamento de Biblioteca Escolar...
 rem Configura o JAVA_HOME e PATH
 rem Altere o caminho abaixo para o local onde o JDK está instalado

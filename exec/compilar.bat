@@ -1,5 +1,5 @@
 @echo off
-chcp 1252 >nul
+chcp 65001 >nul
 echo Compilando o projeto...
 rem Como já citei antes eu setei o JAVA_HOME nas variaveis de ambiente ligada a pasta downloads por preferência pessoal
 set JAVA_HOME=%userprofile%\Downloads\jdk-11.0.25_windows-x64_bin\jdk-11.0.25
@@ -26,7 +26,7 @@ if not exist ".\lib\mysql-connector-j-8.0.32.jar" (
 )
 
 rem Compila as classes do projeto
-javac -d classes -cp classes;./lib/mysql-connector-j-8.0.32.jar ../src/br/com/biblioteca/modelo/*.java ../src/br/com/biblioteca/util/*.java ../src/br/com/biblioteca/dao/*.java ../src/br/com/biblioteca/*.java
+javac -encoding UTF-8 -d classes -cp classes;./lib/mysql-connector-j-8.0.32.jar ../src/br/com/biblioteca/modelo/*.java ../src/br/com/biblioteca/util/*.java ../src/br/com/biblioteca/dao/*.java ../src/br/com/biblioteca/*.java
 
 if %ERRORLEVEL% == 0 (
   echo Compilação concluída com sucesso!
