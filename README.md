@@ -4,10 +4,11 @@
 Este projeto implementa um sistema de gerenciamento de biblioteca escolar conforme solicitado na atividade prática. O sistema controla o cadastro de alunos e livros, além de gerenciar empréstimos, devoluções e gerar relatórios importantes para a administração da biblioteca.
 
 ## Equipe
-# Erick Moura dos Santos 1 (2415608)
-# Henry Marx Sales Pereira 2 (2326939)
-# João Gabriel Sampaio Bringel 3 (2424118)
-# Carlos Alexsandro Da Silva Lima 4 (2425267)
+- Erick Moura dos Santos 1 (2415608)
+- Henry Marx Sales Pereira 2 (2326939)
+- João Gabriel Sampaio Bringel 3 (2424118)
+- Carlos Alexsandro Da Silva Lima 4 (2425267)
+- Francisco Fernandes Pinheiro Filho 5 (2318852)
 
 ## Estrutura do Projeto
 - Pacote model: Classes de domínio (Aluno, Livro, Empréstimo)

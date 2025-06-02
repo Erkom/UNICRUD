@@ -11,9 +11,9 @@ import java.sql.SQLException;
  * @version 1.0
  */
 public class ConexaoBD {
-    private static final String URL = "jdbc:mysql://localhost:3306/biblioteca?useSSL=false&serverTimezone=UTC";
+    private static final String URL = "jdbc:mysql://localhost:3306/biblioteca?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String USUARIO = "root";
-    private static final String SENHA = "dbunifor25";
+    private static final String SENHA = "dbunifor25"; // Substitua pela sua senha real do banco de dados
     
     public static Connection obterConexao() throws SQLException {
         try {

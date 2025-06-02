@@ -1,0 +1,3 @@
+Salvei esse "leia-me" como txt apenas para visualização rápida do link publico para o repositório.
+
+https://github.com/Erkom/UNICRUD
